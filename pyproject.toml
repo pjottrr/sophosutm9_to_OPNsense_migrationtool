@@ -1,0 +1,11 @@
+[project]
+name = "sophos-migration"
+version = "0.1.0"
+description = "Sophos UTM 9 to OPNsense migration tools"
+requires-python = ">=3.12"
+dependencies = [
+    "lxml>=5.0.0",
+]
+
+[project.scripts]
+sophos-parser = "sophos_parser:main"
